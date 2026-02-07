@@ -10,7 +10,7 @@ function App() {
     <div className="w-full  bg-[#F5E7C6]">
       <nav className="w-full fixed bg-[#F5E7C6] z-100 top-0">
         <div className="flex items-center px-6">
-          <img src="/fis.png" className="w-10 rounded-full"></img>
+          <img src="/fis.png" className="active:rotate-360 transition-transform duration-200 w-10 rounded-full" onClick={()=> setPage("Home")}></img>
           <div className="flex justify-end w-full p-4 md:space-x-20 gap-4 font-mono font-bold items-center md:text-lg text-sm">
             <p
               onClick={() => {
