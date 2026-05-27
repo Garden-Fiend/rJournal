@@ -8,11 +8,11 @@ function App() {
   const [opacity, setOpacity] = useState(0);
 
   return (
-    <div className="w-full  bg-[#F5E7C6] relative">
+    <div className="w-full  relative">
       {page === "Home" && (
-        <div className="w-full  pb-1  bg-[#e9e4d9]">
+        <div className="w-full  pb-1  ">
           <div className="relative w-full">
-            <nav className="w-full fixed bg-transparent z-100 text-white">
+            <nav className="w-full fixed bg-transparent z-100">
               <div className="flex items-center px-6">
                 <img
                   src="/fis.png"
@@ -40,16 +40,16 @@ function App() {
               </div>
             </nav>
 
-            <button
-              className="absolute place-self-center-safe font-bold font-mono text-white text-sm md:border-5 border-3 md:text-4xl border-white md:p-5 p-3 rounded-xl hover:scale-105  transition-transform left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 active:scale-90 z-10 duration-100 shadow-2xl"
+            {/*<button
+              className="absolute place-self-center-safe font-bold font-mono text-black text-sm md:border-5 border-3 md:text-4xl border-white md:p-5 p-3 rounded-xl hover:scale-105  transition-transform left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 active:scale-90 z-10 duration-100 shadow-2xl"
               onClick={() => {
                 setTimeout(() => setPage("Artworks"), 120);
               }}
               type="button"
             >
               WORKS OF THE MEWFORD
-            </button>
-            <img src="/FINALBANNER.jpg" className="w-full"></img>
+            </button>*/}
+            <img src="/SketchyBanner.png" className="w-full px-2 pt-12"></img>
           </div>
 
           <div className="md:flex md:w-1/2 place-self-center my-10">
@@ -80,10 +80,10 @@ function App() {
             ></img>
           </div>
 
-          <div className="mb-20 place-self-center md:flex items-center p-6 border-3 rounded-2xl md:w-1/2  mx-4 bg-[#d88e8c]">
+          <div className="mb-20 place-self-center md:flex items-center p-6 border-3 rounded-2xl md:w-1/2  mx-4">
             <img
               src="avatar.gif"
-              className="md:w-30 md:h-30 w-20 h-20 rounded-full m-8 place-self-center border-3 md:p-4 bg-white"
+              className="md:w-30 md:h-30 w-20 h-20 rounded-full m-8 place-self-center  md:p-4 bg-white"
             ></img>
             <div>
               <p className="text-left font-bold text-lg md:text-2xl font-mono mb-2">
