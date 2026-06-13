@@ -1,14 +1,22 @@
 import "./App.css";
 import { useState } from "react";
 import ArtEntry from "./components/artEntry";
+import Landing from "./pages/Landing";
 import { Entries } from "../public/data/journalEntries";
-
+import { Routes,Route } from "react-router-dom";
 function App() {
   const [page, setPage] = useState("Home");
   const [opacity, setOpacity] = useState(0);
 
   return (
-    <div className="w-full  relative">
+
+    <Routes>
+      <Route path="/" element={<Landing/>}/>
+    </Routes>
+
+  )
+
+   {/* <div className="w-full  relative">
       {page === "Home" && (
         <div className="w-full  pb-1  ">
           <div className="relative w-full">
@@ -19,7 +27,7 @@ function App() {
                   className="active:rotate-360 transition-transform duration-200 w-10 rounded-full"
                   onClick={() => setPage("Home")}
                 ></img>
-                <div className="flex justify-end w-full p-4 md:space-x-20 gap-4 font-mono font-bold items-center md:text-lg text-sm">
+                <div className="flex justify-end w-full p-4 md:space-x-5 gap-4 font-mono font-bold items-center md:text-lg text-sm">
                   <p
                     onClick={() => {
                       setPage("Home");
@@ -48,17 +56,19 @@ function App() {
               type="button"
             >
               WORKS OF THE MEWFORD
-            </button>*/}
-            <img src="/SketchyBanner.png" className="w-full px-2 pt-12"></img>
+            </button>
+            <div className="p-4 pt-14">
+              <img src="/tod3.jpg" className="w-full rounded-2xl"></img>
+            </div>
           </div>
 
-          <div className="md:flex md:w-1/2 place-self-center my-10">
-            <div className="md:w-1/2 md:border-l-4 p-4">
-              <h3 className="md:text-2xl text-xl font-mono font-bold mb-2">
+          <div className="md:flex md:w-1/2 place-self-center my-10 pt-10">
+            <div className="md:w-1/2 p-2">
+              <h3 className="md:text-3xl text-xl font-merriweather font-bold mb-2">
                 Some Stuff about my art
               </h3>
 
-              <p className="text-left  md:mb-8 font-mono  place-self-center   text-sm">
+              <p className="text-left  pl-2 pr-4 md:mb-8 font-mono  place-self-center   text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                 eos, rem tenetur accusantium alias earum porro. Vitae amet, illo
                 odio eaque repellat molestiae velit quibusdam tenetur sed
@@ -82,11 +92,11 @@ function App() {
 
           <div className="mb-20 place-self-center md:flex items-center p-6 border-3 rounded-2xl md:w-1/2  mx-4">
             <img
-              src="avatar.gif"
-              className="md:w-30 md:h-30 w-20 h-20 rounded-full m-8 place-self-center  md:p-4 bg-white"
+              src="avatar.png"
+              className="md:w-40 md:h-40 w-20 h-20 rounded-full m-8 place-self-center  md:p-4 bg-white"
             ></img>
             <div>
-              <p className="text-left font-bold text-lg md:text-2xl font-mono mb-2">
+              <p className="text-left font-bold text-lg md:text-3xl font-merriweather mb-2">
                 Who the heck is this guy ?
               </p>
               <p className="text-left text-sm font-mono">
@@ -150,7 +160,9 @@ function App() {
         </div>
       )}
     </div>
-  );
+*/}  
+
+
 }
 
 export default App;
