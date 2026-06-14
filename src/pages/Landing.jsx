@@ -8,7 +8,7 @@ export default function Landing() {
           <img src="/tod3.jpg" className="w-full rounded-2xl"></img>
         </div>
       </div>
-      <main className="flex md:w-3/4 place-self-center">
+      <main className="flex md:w-2/3 place-self-center p-4">
         <div className="md:w-3/4 space-y-10 p-5">
           <section className="md:flex">
             <div className="md:w-1/2 p-2">
