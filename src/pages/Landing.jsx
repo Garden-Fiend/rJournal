@@ -11,43 +11,48 @@ export default function Landing() {
       <main className="flex md:w-2/3 place-self-center p-4">
         <div className="md:w-3/4 space-y-10 p-5">
           <section className="md:flex">
-            <div className="md:w-1/2 p-2">
-              <h2 className="md:text-3xl text-xl font-merriweather font-bold">
-                Some Stuff about my art
+            <div className="md:w-1/2 p-2 space-y-5">
+              <h2 className="md:text-3xl text-xl font-mono font-bold">
+                My Art in a Nutshell
               </h2>
 
-              <p className="text-left  pl-2 pr-4  font-mono  place-self-center   text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                eos, rem tenetur accusantium alias earum porro. Vitae amet, illo
-                odio eaque repellat molestiae velit quibusdam tenetur sed
-                consequatur suscipit sit! Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Inventore harum labore nulla quam
-                distinctio nesciunt necessitatibus omnis itaque possimus,
-                laboriosam incidunt culpa reiciendis amet beatae at. Hic sit
-                quisquam qui? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Tempore fugit sint hic, nisi exercitationem debitis
-                reprehenderit id voluptatibus molestiae optio quia aspernatur
-                voluptatem amet ut. Blanditiis est mollitia alias accusantium?
-                lore
-              </p>
+              <div className="space-y-5">
+                <p className="text-left   pr-4  font-lora  place-self-center   text-sm/relaxed">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  eos, rem tenetur accusantium alias earum porro. Vitae amet,
+                  illo odio eaque repellat molestiae velit quibusdam tenetur sed
+                  consequatur suscipit sit! Lorem ipsum dolor, sit amet lore
+                </p>
+
+                <p className="text-left   pr-4  font-lora  place-self-center   text-sm/relaxed font-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  eos, rem tenetur accusantium alias earum porro. Vitae amet,
+                  illo odio eaque repellat molestiae velit quibusdam tenetur sed
+                  consequatur suscipit sit! Lorem ipsum dolor, sit amet lore
+                </p>
+              </div>
             </div>
 
-            <img src="/homeart2.jpg" className="md:w-1/2 object-cover"></img>
+            <img
+              src="/homeart2.jpg"
+              className="md:w-1/2 object-cover pl-2"
+            ></img>
           </section>
 
-          <div className="md:flex items-center p-3 border-3 border-gray-300 rounded-2xl">
+          <div className="md:flex items-center p-3 border-3 border-dashed ">
             <img
-              src="avatar.png"
-              className="md:w-40 md:h-40 w-20 h-20 rounded-full m-8 place-self-center  md:p-4 bg-white"
+              src="welccc.png"
+              className="md:w-40 md:h-40 w-20 h-20 rounded-full m-5 place-self-center"
             ></img>
             <div>
-              <h2 className="text-left font-bold text-lg md:text-3xl font-merriweather mb-2">
+              <h2 className="text-left font-bold text-lg md:text-3xl font-mono mb-2">
                 Who the heck is this guy ?
               </h2>
-              <p className="text-left text-sm font-mono">
+              <p className="text-left text-sm font-lora">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
                 hic fuga pariatur! Culpa cumque suscipit alias non eius.
                 Recusandae illum pariatur eius reprehenderit accusantium fuga
+                <br></br>
                 temporibus veniam incidunt nesciunt optio! Lorem, ipsum dolor
                 sit amet consectetur adipisicing elit. Rerum voluptatum
                 accusantium consequuntur quod eum dolores eaque reprehenderit
@@ -59,10 +64,8 @@ export default function Landing() {
 
           <div className="justify-center  items-center space-y-5">
             <img src="/ActualBanner.jpg" className="mb-4"></img>
-            <h2 className="text-3xl font-merriweather font-bold">
-              Another Section
-            </h2>
-            <div className="font-mono text-sm">
+            <h2 className="text-3xl font-mono font-bold">Another Section</h2>
+            <div className="font-lora text-sm">
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
                 repudiandae rerum delectus nostrum tenetur laborum quaerat modi
@@ -82,17 +85,18 @@ export default function Landing() {
             </div>
           </div>
 
-          <section className="border-2 border-gray-300 p-5 rounded-2xl">
+          <section
+            className="bg-[#d45729]
+          border-2 border-gray text-[#ecebd2] 300 p-5 "
+          >
+            <h2 className="mb-5 font-mono font-bold text-3xl">Random Pictures</h2>
             <div className="flex gap-4">
               <div className="w-1/4 space-y-4">
                 <img src="/blur3.jpg"></img>
                 <img src="/blur1.jpg"></img>
               </div>
               <div className="w-3/4 space-y-5">
-                <h2 className="font-merriweather font-bold text-3xl">
-                  Random Pictures
-                </h2>
-                <p className="font-mono text-sm">
+                <p className="font-lora text-sm">
                   Sometimes I take random pictures of things I find interesiting
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                   assumenda maxime cumque perspiciatis laudantium inventore,
@@ -104,7 +108,7 @@ export default function Landing() {
                   delectus? Iste quibusdam ratione quae consectetur.
                 </p>
 
-                <p className="font-mono text-sm">
+                <p className="font-lora text-sm">
                   Sometimes I take random pictures of things I find interesiting
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                   assumenda maxime cumque perspiciatis laudantium inventore,
@@ -120,8 +124,8 @@ export default function Landing() {
           </section>
 
           <section className="space-y-5">
-            <h2 className="font-merriweather font-bold text-3xl">Sketching</h2>
-            <p className="font-mono text-sm">
+            <h2 className="font-mono font-bold text-3xl">Sketching</h2>
+            <p className="font-lora text-sm">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Molestiae sequi accusamus necessitatibus deserunt? A hic totam qui
               ipsa impedit minus odio, deleniti maiores eos pariatur dolorum
@@ -152,17 +156,17 @@ export default function Landing() {
               <img src="/mecha.png" className="bg-blue-950 w-1/2"></img>
 
               <div className="px-4 space-y-4">
-                <h2 className="font-merriweather font-bold text-3xl">
+                <h2 className="font-mono font-bold text-3xl">
                   My Chaos of Detail
                 </h2>
-                <p className="font-mono text-sm">
+                <p className="font-lora text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veritatis quia minus blanditiis voluptatem odit iure aliquam
                   saepe ullam impedit facere nostrum perferendis assumenda quam
                   quis delectus dolores suscipit, laborum in!
                 </p>
 
-                 <p className="font-mono text-sm">
+                <p className="font-lora text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veritatis quia minus blanditiis voluptatem odit iure aliquam
                   saepe ullam impedit facere nostrum perferendis assumenda quam
