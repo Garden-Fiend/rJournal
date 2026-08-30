@@ -5,10 +5,12 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "./assets/fonts/times.ttf";
 import App from "./App.jsx";
+import Nav from "./components/nav.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+      <Nav></Nav>
       <App></App>
     </BrowserRouter>
   </StrictMode>,

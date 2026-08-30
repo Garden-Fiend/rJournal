@@ -2,21 +2,22 @@ import "./App.css";
 import { useState } from "react";
 import ArtEntry from "./components/artEntry";
 import Landing from "./pages/Landing";
+import Home from "./pages/Home";
 import { Entries } from "../public/data/journalEntries";
-import { Routes,Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 function App() {
   const [page, setPage] = useState("Home");
   const [opacity, setOpacity] = useState(0);
 
   return (
-
     <Routes>
-      <Route path="/" element={<Landing/>}/>
+      <Route path="/Landing" element={<Landing />} />
+      <Route path="/" element={<Home />} />
     </Routes>
+  );
 
-  )
-
-   {/* <div className="w-full  relative">
+  {
+    /* <div className="w-full  relative">
       {page === "Home" && (
         <div className="w-full  pb-1  ">
           <div className="relative w-full">
@@ -160,9 +161,8 @@ function App() {
         </div>
       )}
     </div>
-*/}  
-
-
+*/
+  }
 }
 
 export default App;

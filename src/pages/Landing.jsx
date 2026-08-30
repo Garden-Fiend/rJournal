@@ -89,7 +89,9 @@ export default function Landing() {
             className="bg-[#d45729]
           border-2 border-gray text-[#ecebd2] 300 p-5 "
           >
-            <h2 className="mb-5 font-mono font-bold text-3xl">Random Pictures</h2>
+            <h2 className="mb-5 font-mono font-bold text-3xl">
+              Random Pictures
+            </h2>
             <div className="flex gap-4">
               <div className="w-1/4 space-y-4">
                 <img src="/blur3.jpg"></img>
