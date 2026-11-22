@@ -5,6 +5,7 @@ import Landing from "./pages/Landing";
 import Home from "./pages/Home";
 import { Entries } from "../public/data/journalEntries";
 import { Routes, Route } from "react-router-dom";
+import Artworks from "./pages/Artworks";
 function App() {
   const [page, setPage] = useState("Home");
   const [opacity, setOpacity] = useState(0);
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/Landing" element={<Landing />} />
       <Route path="/" element={<Home />} />
+      <Route path="/Artworks" element={<Artworks/>} />
     </Routes>
   );
 

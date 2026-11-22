@@ -3,7 +3,6 @@ export default function Landing() {
   return (
     <div className="w-full  pb-1   items-center">
       <div className="relative w-full">
-        <Nav></Nav>
         <div className="p-4 pt-14">
           <img src="/tod3.jpg" className="w-full rounded-2xl"></img>
         </div>
@@ -85,7 +84,7 @@ export default function Landing() {
             </div>
           </div>
 
-          <section
+     {    /**  <section
             className="bg-[#d45729]
           border-2 border-gray text-[#ecebd2] 300 p-5 "
           >
@@ -123,7 +122,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section className="space-y-5">
             <h2 className="font-mono font-bold text-3xl">Sketching</h2>

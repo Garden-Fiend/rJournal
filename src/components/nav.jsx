@@ -25,17 +25,20 @@ export default function Nav() {
 
           <p
             onClick={() => {
+              charon("/Artworks");
+            }}
+            className="hover:border-b-2 transition-all duration-50"
+          >
+            Artworks
+          </p>
+
+          <p
+            onClick={() => {
               charon("/Landing");
             }}
             className="hover:border-b-2 transition-all duration-50"
           >
             About Me
-          </p>
-          <p
-            onClick={() => {}}
-            className="hover:border-b-2 transition-all duration-50"
-          >
-            Artworks
           </p>
         </div>
       </div>
