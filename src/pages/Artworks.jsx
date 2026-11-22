@@ -17,19 +17,19 @@ export default function Artworks() {
           <div className="flex w-2/3 place-self-center">
             <section className="flex flex-col space-y-2 w-2/3">
               <div>
-                <img src="./public/artworks/c2A.jpg"></img>
+                <img src="/artworks/c2A.jpg"></img>
               </div>
 
               <div>
-                <img src="./public/artworks/c2B.jpg"></img>
+                <img src="/artworks/c2B.jpg"></img>
               </div>
 
               <div>
-                <img src="./public/artworks/c2C.jpg"></img>
+                <img src="/artworks/c2C.jpg"></img>
               </div>
 
               <div>
-                <img src="./public/artworks/c2D.jpg"></img>
+                <img src="/artworks/c2D.jpg"></img>
               </div>
             </section>
 
@@ -52,19 +52,19 @@ export default function Artworks() {
           <div className="flex w-2/3 place-self-center">
             <section className="flex flex-col space-y-2 w-2/3">
               <div>
-                <img src="./public/artworks/c5A.jpg"></img>
+                <img src="/artworks/c5A.jpg"></img>
               </div>
 
               <div>
-                <img src="./public/artworks/c5B.jpg"></img>
+                <img src="/artworks/c5B.jpg"></img>
               </div>
 
               <div>
-                <img src="./public/artworks/c5C.jpg"></img>
+                <img src="/artworks/c5C.jpg"></img>
               </div>
 
               <div>
-                <img src="./public/artworks/c5D.jpg"></img>
+                <img src="/artworks/c5D.jpg"></img>
               </div>
             </section>
 
