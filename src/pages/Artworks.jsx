@@ -42,8 +42,8 @@ export default function Artworks() {
                 </p>
 
                 <div className="grid grid-cols-2 gap-2">
-                  <img src="/public/sketches/c1sa.jpg"></img>
-                  <img src="/public/sketches/c1sb.jpg"></img>
+                  <img src="/sketches/c1sa.jpg"></img>
+                  <img src="/sketches/c1sb.jpg"></img>
                 </div>
               </div>
             </section>
@@ -83,16 +83,16 @@ export default function Artworks() {
                 </p>
 
                 <div className="grid grid-cols-2 gap-2">
-                  <img src="/public/sketches/c5sa.jpg"></img>
-                  <img src="/public/sketches/c5sb.jpg"></img>
+                  <img src="/sketches/c5sa.jpg"></img>
+                  <img src="/sketches/c5sb.jpg"></img>
 
-                  <img src="/public/sketches/c5sc.jpg"></img>
+                  <img src="/sketches/c5sc.jpg"></img>
 
-                  <img src="/public/sketches/c5sd.jpg"></img>
+                  <img src="/sketches/c5sd.jpg"></img>
 
-                  <img src="/public/sketches/c5se.jpg"></img>
+                  <img src="/sketches/c5se.jpg"></img>
 
-                  <img src="/public/sketches/c5sf.jpg"></img>
+                  <img src="/sketches/c5sf.jpg"></img>
                 </div>
               </div>
             </section>
